@@ -12,6 +12,10 @@ import androidx.core.view.WindowInsetsCompat;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.thecupcakeshop.adapter.ProductAdapter;
+import com.example.thecupcakeshop.adapter.RecentOrdersAdapter;
+import com.example.thecupcakeshop.model.ProductModel;
+import com.example.thecupcakeshop.model.RecentOrderModel;
 import com.github.mikephil.charting.charts.PieChart;
 import com.github.mikephil.charting.data.PieData;
 import com.github.mikephil.charting.data.PieDataSet;
