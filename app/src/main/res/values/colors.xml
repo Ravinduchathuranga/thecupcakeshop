@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Basic Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Primary Colors -->
+    <color name="primaryColor">#FF9AA2</color> <!-- Soft Pink -->
+    <color name="secondaryColor">#FFD3B6</color> <!-- Light Peach -->
+    <color name="accentColor">#FF6F61</color> <!-- Coral -->
+
+    <!-- Background Colors -->
+    <color name="background_light">#FFF8F2</color> <!-- Very Light Peach -->
+    <color name="background_dark">#FFE4D6</color> <!-- Warm Beige -->
+
+    <!-- Text Colors -->
+    <color name="text_primary">#4A2E2E</color> <!-- Dark Brown -->
+    <color name="text_secondary">#6D4C41</color> <!-- Coffee Brown -->
+
+    <!-- Cupcake-Themed Colors -->
+    <color name="cupcake_pink">#FF9AA2</color> <!-- Soft Pink -->
+    <color name="cupcake_peach">#FFD3B6</color> <!-- Light Peach -->
+    <color name="cupcake_mint">#B2E2D4</color> <!-- Mint Green -->
+    <color name="cupcake_lavender">#D8BFD8</color> <!-- Lavender -->
+    <color name="cupcake_yellow">#FFE5B4</color> <!-- Pastel Yellow -->
+    <color name="cupcake_blue">#A2DDF0</color> <!-- Soft Blue -->
+
+    <!-- Category Colors -->
+    <color name="color_category1">#FF9AA2</color> <!-- Soft Pink -->
+    <color name="color_category2">#FFD3B6</color> <!-- Light Peach -->
+    <color name="color_category3">#B2E2D4</color> <!-- Mint Green -->
+    <color name="color_category4">#D8BFD8</color> <!-- Lavender -->
+    <color name="color_category5">#FFE5B4</color> <!-- Pastel Yellow -->
+    <color name="color_category6">#A2DDF0</color> <!-- Soft Blue -->
+    <color name="color_category7">#F7CAC9</color> <!-- Rose Quartz -->
+    <color name="color_category8">#88B04B</color> <!-- Green -->
+    <color name="color_category9">#DD4124</color> <!-- Red -->
+    <color name="color_category10">#6B5B95</color> <!-- Purple -->
+
+    <!-- Additional Colors -->
+    <color name="gray">#808080</color>
+    <color name="red">#FF521B</color>
+</resources>
