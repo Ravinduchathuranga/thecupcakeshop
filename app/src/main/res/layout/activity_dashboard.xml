@@ -176,9 +176,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
-        android:background="?attr/colorPrimary"
-        app:itemIconTint="@android:color/white"
-        app:itemTextColor="@android:color/white"
+        android:background="@color/cupcake_mint"
+        app:itemIconTint="@android:color/background_dark"
+        app:itemTextColor="@android:color/black"
         app:menu="@menu/bottom_navigation_menu" />
 
     <!-- Floating Action Button (FAB) -->
@@ -189,6 +189,6 @@
         android:layout_gravity="bottom|end"
         android:layout_margin="16dp"
         android:src="@drawable/add"
-        app:backgroundTint="@color/primaryColor"
+        app:backgroundTint="@color/red"
         app:tint="@android:color/white" />
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

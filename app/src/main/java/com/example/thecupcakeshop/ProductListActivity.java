@@ -10,14 +10,14 @@ import androidx.core.view.WindowInsetsCompat;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.thecupcakeshop.adapter.ProductAdapter;
+import com.example.thecupcakeshop.model.ProductModel;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.QueryDocumentSnapshot;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import lk.miniflix.watchme.adapters.ProductAdapter;
-import lk.miniflix.watchme.module.ProductModel;
 
 public class ProductListActivity extends AppCompatActivity {
 

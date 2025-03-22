@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/main"
     android:padding="16dp"
     tools:context=".AddProductActivity">
 
@@ -28,10 +29,11 @@
             android:id="@+id/imageViewPreview"
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:scaleType="fitCenter"
+            android:layout_marginBottom="20dp"
             android:background="@color/gray"
-            android:layout_marginBottom="16dp"
-            android:contentDescription="Cupcake Image Preview" />
+            android:contentDescription="Cupcake Image Preview"
+            android:padding="10dp"
+            android:scaleType="fitCenter" />
 
         <!-- Add Image Button -->
         <Button

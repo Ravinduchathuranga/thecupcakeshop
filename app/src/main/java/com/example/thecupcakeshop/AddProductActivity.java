@@ -19,6 +19,8 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 import com.cloudinary.android.MediaManager;
+import com.cloudinary.android.callback.ErrorInfo;
+import com.cloudinary.android.callback.UploadCallback;
 import com.google.firebase.firestore.FirebaseFirestore;
 
 import java.util.HashMap;
@@ -62,10 +64,10 @@ public class AddProductActivity extends AppCompatActivity {
 
         // Initialize Cloudinary
         Map config = new HashMap();
-        config.put("cloud_name", "your_cloud_name"); // Replace with your Cloudinary cloud name
-        config.put("api_key", "your_api_key"); // Replace with your Cloudinary API key
-        config.put("api_secret", "your_api_secret"); // Replace with your Cloudinary API secret
-        config.put("upload_preset", "your_upload_preset"); // Replace with your Cloudinary upload preset
+        config.put("cloud_name", "ddtvugtjy"); // Replace with your Cloudinary cloud name
+        config.put("api_key", "328634341818885"); // Replace with your Cloudinary API key
+        config.put("api_secret", "61k4FDe9GnYhrsJhvdsH9E1q53Y"); // Replace with your Cloudinary API secret
+        config.put("upload_preset", "cupcakeshop"); // Replace with your Cloudinary upload preset
         try {
             MediaManager.get();
         } catch (IllegalStateException e) {
@@ -154,7 +156,7 @@ public class AddProductActivity extends AppCompatActivity {
     private void saveProductToFirestore(String productName, String productDesc, String productCategory, String productPrice) {
         // Upload image to Cloudinary
         MediaManager.get().upload(imageUri)
-                .unsigned("your_upload_preset") // Replace with your upload preset
+                .unsigned("cupcakeshop") // Replace with your upload preset
                 .callback(new UploadCallback() {
                     @Override
                     public void onStart(String requestId) {

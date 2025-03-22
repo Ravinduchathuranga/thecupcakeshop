@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">thecupcakeshop</string>
+
+    <string-array name="cupcake_categories">
+        <item>Select Category</item>
+        <item>Chocolate</item>
+        <item>Vanilla</item>
+        <item>Strawberry</item>
+        <item>Red Velvet</item>
+        <item>Lemon</item>
+        <item>Carrot</item>
+        <item>Cheesecake</item>
+        <item>Gluten-Free</item>
+        <item>Vegan</item>
+        <item>Seasonal Specials</item>
+    </string-array>
 </resources>
